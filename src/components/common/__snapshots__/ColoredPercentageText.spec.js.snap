@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/component/ColoredPercentageText renders correctly for negative numbers 1`] = `
+<div
+  className="sc-bdVaJa sc-htpNat chjhjd"
+  color="red"
+  fontFamily="body"
+>
+  -0.1%
+</div>
+`;
+
+exports[`components/component/ColoredPercentageText renders correctly for positive numbers 1`] = `
+<div
+  className="sc-bdVaJa sc-htpNat ijHaiK"
+  color="normal"
+  fontFamily="body"
+>
+  100%
+</div>
+`;

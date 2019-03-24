@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/component/NormalText renders correctly 1`] = `
+<div
+  className="sc-bdVaJa sc-htpNat jBGZHO"
+  fontFamily="body"
+>
+  Test Text
+</div>
+`;
