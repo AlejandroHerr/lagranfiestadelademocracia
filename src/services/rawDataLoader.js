@@ -1,8 +1,8 @@
 import mem from 'mem';
 
-import rawParties from '../data/newParties.json';
-import rawRegions from '../data/newRegions.json';
-import rawResults from '../data/newResults.json';
+import rawParties from '../data/parties.json';
+import rawRegions from '../data/regions.json';
+import rawResults from '../data/results.json';
 import matchFn from '../utils/matchFn';
 
 const getParties = () => rawParties;
