@@ -1,5 +1,90 @@
 [
   {
+    "regionId": 8342,
+    "id": 8342,
+    "resultsByParty": [
+      {
+        "votes": 51602,
+        "id": 59,
+        "percVotes": 0.3086871732290059
+      },
+      {
+        "votes": 34162,
+        "id": 68,
+        "percVotes": 0.20435973822428005
+      },
+      {
+        "votes": 26671,
+        "id": 16,
+        "percVotes": 0.1595479942093488
+      },
+      {
+        "votes": 26353,
+        "id": 77,
+        "percVotes": 0.1576456935022672
+      },
+      {
+        "votes": 15841,
+        "id": 23,
+        "percVotes": 0.0947620927700609
+      },
+      {
+        "votes": 8335,
+        "id": 13,
+        "percVotes": 0.049860617589701256
+      },
+      {
+        "votes": 1651,
+        "id": 41,
+        "percVotes": 0.009876410274816649
+      },
+      {
+        "votes": 595,
+        "id": 81,
+        "percVotes": 0.003559336228658938
+      },
+      {
+        "votes": 299,
+        "id": 94,
+        "percVotes": 0.0017886412308723066
+      },
+      {
+        "votes": 292,
+        "id": 93,
+        "percVotes": 0.0017467666870057308
+      },
+      {
+        "votes": 211,
+        "id": 49,
+        "percVotes": 0.0012622183936924973
+      },
+      {
+        "votes": 75,
+        "id": 38,
+        "percVotes": 0.00044865582714188293
+      }
+    ],
+    "electoralData": {
+      "valids": 167166,
+      "prevWhites": 1292,
+      "prevNulls": 1764,
+      "prevAbstentions": 73386,
+      "prevVotes": 180941,
+      "prevCensus": 254327,
+      "whites": 1079,
+      "nulls": 1697,
+      "abstentions": 79657,
+      "votes": 168863,
+      "census": 248520,
+      "percVotes": 0.6794744889747304,
+      "percAbstention": 0.3205255110252696,
+      "percValid": 0.9899504331914036,
+      "percWhite": 0.006389795277828772,
+      "percNull": 0.010049566808596318,
+      "seats": 4
+    }
+  },
+  {
     "regionId": 49,
     "id": 49,
     "electoralData": {
