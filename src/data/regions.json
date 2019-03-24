@@ -1,0 +1,629 @@
+[
+  {
+    "id": 99999,
+    "oldId": 99999,
+    "alias": "total estatal",
+    "name": "Total Estatal",
+    "type": 0
+  },
+  {
+    "id": 1,
+    "oldId": 1999,
+    "countryCode": 99999,
+    "alias": "andalucia",
+    "name": "Andalucía",
+    "type": 1
+  },
+  {
+    "id": 2,
+    "oldId": 2999,
+    "countryCode": 99999,
+    "alias": "aragon",
+    "name": "Aragón",
+    "type": 1
+  },
+  {
+    "id": 3,
+    "oldId": 3999,
+    "countryCode": 99999,
+    "alias": "principado de asturias",
+    "name": "Principado de Asturias",
+    "type": 1
+  },
+  {
+    "id": 4,
+    "oldId": 4999,
+    "countryCode": 99999,
+    "alias": "illes balears",
+    "name": "Illes Balears",
+    "type": 1
+  },
+  {
+    "id": 5,
+    "oldId": 5999,
+    "countryCode": 99999,
+    "alias": "canarias",
+    "name": "Canarias",
+    "type": 1
+  },
+  {
+    "id": 6,
+    "oldId": 6999,
+    "countryCode": 99999,
+    "alias": "cantabria",
+    "name": "Cantabria",
+    "type": 1
+  },
+  {
+    "id": 7,
+    "oldId": 7999,
+    "countryCode": 99999,
+    "alias": "castilla _ la mancha",
+    "name": "Castilla - La Mancha",
+    "type": 1
+  },
+  {
+    "id": 8,
+    "oldId": 8999,
+    "countryCode": 99999,
+    "alias": "castilla y leon",
+    "name": "Castilla y León",
+    "type": 1
+  },
+  {
+    "id": 9,
+    "oldId": 9999,
+    "countryCode": 99999,
+    "alias": "catalunya",
+    "name": "Catalunya",
+    "type": 1
+  },
+  {
+    "id": 10,
+    "oldId": 10999,
+    "countryCode": 99999,
+    "alias": "extremadura",
+    "name": "Extremadura",
+    "type": 1
+  },
+  {
+    "id": 11,
+    "oldId": 11999,
+    "countryCode": 99999,
+    "alias": "galicia",
+    "name": "Galicia",
+    "type": 1
+  },
+  {
+    "id": 12,
+    "oldId": 12999,
+    "countryCode": 99999,
+    "alias": "comunidad de madrid",
+    "name": "Comunidad de Madrid",
+    "type": 1
+  },
+  {
+    "id": 13,
+    "oldId": 13999,
+    "countryCode": 99999,
+    "alias": "comunidad foral de navarra",
+    "name": "Comunidad Foral de Navarra",
+    "type": 1
+  },
+  {
+    "id": 14,
+    "oldId": 14999,
+    "countryCode": 99999,
+    "alias": "pais vasco",
+    "name": "País Vasco",
+    "type": 1
+  },
+  {
+    "id": 15,
+    "oldId": 15999,
+    "countryCode": 99999,
+    "alias": "region de murcia",
+    "name": "Región de Murcia",
+    "type": 1
+  },
+  {
+    "id": 16,
+    "oldId": 16999,
+    "countryCode": 99999,
+    "alias": "la rioja",
+    "name": "La Rioja",
+    "type": 1
+  },
+  {
+    "id": 17,
+    "oldId": 17999,
+    "countryCode": 99999,
+    "alias": "comunitat valenciana",
+    "name": "Comunitat Valenciana",
+    "type": 1
+  },
+  {
+    "id": 18,
+    "oldId": 18999,
+    "countryCode": 99999,
+    "alias": "ciudad de ceuta",
+    "name": "Ciudad de Ceuta",
+    "type": 1
+  },
+  {
+    "id": 19,
+    "oldId": 19999,
+    "countryCode": 99999,
+    "alias": "ciudad de melilla",
+    "name": "Ciudad de Melilla",
+    "type": 1
+  },
+  {
+    "id": 419,
+    "oldId": 1419,
+    "ccaaCode": 1,
+    "countryCode": 99999,
+    "alias": "sevilla",
+    "name": "Sevilla",
+    "type": 2
+  },
+  {
+    "id": 219,
+    "oldId": 1219,
+    "ccaaCode": 1,
+    "countryCode": 99999,
+    "alias": "huelva",
+    "name": "Huelva",
+    "type": 2
+  },
+  {
+    "id": 299,
+    "oldId": 1299,
+    "ccaaCode": 1,
+    "countryCode": 99999,
+    "alias": "malaga",
+    "name": "Málaga",
+    "type": 2
+  },
+  {
+    "id": 149,
+    "oldId": 1149,
+    "ccaaCode": 1,
+    "countryCode": 99999,
+    "alias": "cordoba",
+    "name": "Córdoba",
+    "type": 2
+  },
+  {
+    "id": 189,
+    "oldId": 1189,
+    "ccaaCode": 1,
+    "countryCode": 99999,
+    "alias": "granada",
+    "name": "Granada",
+    "type": 2
+  },
+  {
+    "id": 49,
+    "oldId": 1049,
+    "ccaaCode": 1,
+    "countryCode": 99999,
+    "alias": "almeria",
+    "name": "Almería",
+    "type": 2
+  },
+  {
+    "id": 119,
+    "oldId": 1119,
+    "ccaaCode": 1,
+    "countryCode": 99999,
+    "alias": "cadiz",
+    "name": "Cádiz",
+    "type": 2
+  },
+  {
+    "id": 239,
+    "oldId": 1239,
+    "ccaaCode": 1,
+    "countryCode": 99999,
+    "alias": "jaen",
+    "name": "Jaén",
+    "type": 2
+  },
+  {
+    "id": 449,
+    "oldId": 2449,
+    "ccaaCode": 2,
+    "countryCode": 99999,
+    "alias": "teruel",
+    "name": "Teruel",
+    "type": 2
+  },
+  {
+    "id": 509,
+    "oldId": 2509,
+    "ccaaCode": 2,
+    "countryCode": 99999,
+    "alias": "zaragoza",
+    "name": "Zaragoza",
+    "type": 2
+  },
+  {
+    "id": 229,
+    "oldId": 2229,
+    "ccaaCode": 2,
+    "countryCode": 99999,
+    "alias": "huesca",
+    "name": "Huesca",
+    "type": 2
+  },
+  {
+    "id": 339,
+    "oldId": 3339,
+    "ccaaCode": 3,
+    "countryCode": 99999,
+    "alias": "asturias",
+    "name": "Asturias",
+    "type": 2
+  },
+  {
+    "id": 79,
+    "oldId": 4079,
+    "ccaaCode": 4,
+    "countryCode": 99999,
+    "alias": "illes balears",
+    "name": "Illes Balears",
+    "type": 2
+  },
+  {
+    "id": 389,
+    "oldId": 5389,
+    "ccaaCode": 5,
+    "countryCode": 99999,
+    "alias": "santa cruz de tenerife",
+    "name": "Santa Cruz de Tenerife",
+    "type": 2
+  },
+  {
+    "id": 359,
+    "oldId": 5359,
+    "ccaaCode": 5,
+    "countryCode": 99999,
+    "alias": "las palmas",
+    "name": "Las Palmas",
+    "type": 2
+  },
+  {
+    "id": 399,
+    "oldId": 6399,
+    "ccaaCode": 6,
+    "countryCode": 99999,
+    "alias": "cantabria",
+    "name": "Cantabria",
+    "type": 2
+  },
+  {
+    "id": 29,
+    "oldId": 7029,
+    "ccaaCode": 7,
+    "countryCode": 99999,
+    "alias": "albacete",
+    "name": "Albacete",
+    "type": 2
+  },
+  {
+    "id": 139,
+    "oldId": 7139,
+    "ccaaCode": 7,
+    "countryCode": 99999,
+    "alias": "ciudad real",
+    "name": "Ciudad Real",
+    "type": 2
+  },
+  {
+    "id": 459,
+    "oldId": 7459,
+    "ccaaCode": 7,
+    "countryCode": 99999,
+    "alias": "toledo",
+    "name": "Toledo",
+    "type": 2
+  },
+  {
+    "id": 169,
+    "oldId": 7169,
+    "ccaaCode": 7,
+    "countryCode": 99999,
+    "alias": "cuenca",
+    "name": "Cuenca",
+    "type": 2
+  },
+  {
+    "id": 199,
+    "oldId": 7199,
+    "ccaaCode": 7,
+    "countryCode": 99999,
+    "alias": "guadalajara",
+    "name": "Guadalajara",
+    "type": 2
+  },
+  {
+    "id": 429,
+    "oldId": 8429,
+    "ccaaCode": 8,
+    "countryCode": 99999,
+    "alias": "soria",
+    "name": "Soria",
+    "type": 2
+  },
+  {
+    "id": 379,
+    "oldId": 8379,
+    "ccaaCode": 8,
+    "countryCode": 99999,
+    "alias": "salamanca",
+    "name": "Salamanca",
+    "type": 2
+  },
+  {
+    "id": 479,
+    "oldId": 8479,
+    "ccaaCode": 8,
+    "countryCode": 99999,
+    "alias": "valladolid",
+    "name": "Valladolid",
+    "type": 2
+  },
+  {
+    "id": 249,
+    "oldId": 8249,
+    "ccaaCode": 8,
+    "countryCode": 99999,
+    "alias": "leon",
+    "name": "León",
+    "type": 2
+  },
+  {
+    "id": 99,
+    "oldId": 8099,
+    "ccaaCode": 8,
+    "countryCode": 99999,
+    "alias": "burgos",
+    "name": "Burgos",
+    "type": 2
+  },
+  {
+    "id": 59,
+    "oldId": 8059,
+    "ccaaCode": 8,
+    "countryCode": 99999,
+    "alias": "avila",
+    "name": "Ávila",
+    "type": 2
+  },
+  {
+    "id": 349,
+    "oldId": 8349,
+    "ccaaCode": 8,
+    "countryCode": 99999,
+    "alias": "palencia",
+    "name": "Palencia",
+    "type": 2
+  },
+  {
+    "id": 499,
+    "oldId": 8499,
+    "ccaaCode": 8,
+    "countryCode": 99999,
+    "alias": "zamora",
+    "name": "Zamora",
+    "type": 2
+  },
+  {
+    "id": 409,
+    "oldId": 8409,
+    "ccaaCode": 8,
+    "countryCode": 99999,
+    "alias": "segovia",
+    "name": "Segovia",
+    "type": 2
+  },
+  {
+    "id": 439,
+    "oldId": 9439,
+    "ccaaCode": 9,
+    "countryCode": 99999,
+    "alias": "tarragona",
+    "name": "Tarragona",
+    "type": 2
+  },
+  {
+    "id": 89,
+    "oldId": 9089,
+    "ccaaCode": 9,
+    "countryCode": 99999,
+    "alias": "barcelona",
+    "name": "Barcelona",
+    "type": 2
+  },
+  {
+    "id": 259,
+    "oldId": 9259,
+    "ccaaCode": 9,
+    "countryCode": 99999,
+    "alias": "lleida",
+    "name": "Lleida",
+    "type": 2
+  },
+  {
+    "id": 179,
+    "oldId": 9179,
+    "ccaaCode": 9,
+    "countryCode": 99999,
+    "alias": "girona",
+    "name": "Girona",
+    "type": 2
+  },
+  {
+    "id": 69,
+    "oldId": 10069,
+    "ccaaCode": 10,
+    "countryCode": 99999,
+    "alias": "badajoz",
+    "name": "Badajoz",
+    "type": 2
+  },
+  {
+    "id": 109,
+    "oldId": 10109,
+    "ccaaCode": 10,
+    "countryCode": 99999,
+    "alias": "caceres",
+    "name": "Cáceres",
+    "type": 2
+  },
+  {
+    "id": 329,
+    "oldId": 11329,
+    "ccaaCode": 11,
+    "countryCode": 99999,
+    "alias": "ourense",
+    "name": "Ourense",
+    "type": 2
+  },
+  {
+    "id": 279,
+    "oldId": 11279,
+    "ccaaCode": 11,
+    "countryCode": 99999,
+    "alias": "lugo",
+    "name": "Lugo",
+    "type": 2
+  },
+  {
+    "id": 159,
+    "oldId": 11159,
+    "ccaaCode": 11,
+    "countryCode": 99999,
+    "alias": "a coruna",
+    "name": "A Coruña",
+    "type": 2
+  },
+  {
+    "id": 369,
+    "oldId": 11369,
+    "ccaaCode": 11,
+    "countryCode": 99999,
+    "alias": "pontevedra",
+    "name": "Pontevedra",
+    "type": 2
+  },
+  {
+    "id": 289,
+    "oldId": 12289,
+    "ccaaCode": 12,
+    "countryCode": 99999,
+    "alias": "madrid",
+    "name": "Madrid",
+    "type": 2
+  },
+  {
+    "id": 319,
+    "oldId": 13319,
+    "ccaaCode": 13,
+    "countryCode": 99999,
+    "alias": "navarra",
+    "name": "Navarra",
+    "type": 2
+  },
+  {
+    "id": 489,
+    "oldId": 14489,
+    "ccaaCode": 14,
+    "countryCode": 99999,
+    "alias": "bizkaia",
+    "name": "Bizkaia",
+    "type": 2
+  },
+  {
+    "id": 209,
+    "oldId": 14209,
+    "ccaaCode": 14,
+    "countryCode": 99999,
+    "alias": "gipuzkoa",
+    "name": "Gipuzkoa",
+    "type": 2
+  },
+  {
+    "id": 19,
+    "oldId": 14019,
+    "ccaaCode": 14,
+    "countryCode": 99999,
+    "alias": "araba _ alava",
+    "name": "Araba / Álava",
+    "type": 2
+  },
+  {
+    "id": 309,
+    "oldId": 15309,
+    "ccaaCode": 15,
+    "countryCode": 99999,
+    "alias": "murcia",
+    "name": "Murcia",
+    "type": 2
+  },
+  {
+    "id": 269,
+    "oldId": 16269,
+    "ccaaCode": 16,
+    "countryCode": 99999,
+    "alias": "la rioja",
+    "name": "La Rioja",
+    "type": 2
+  },
+  {
+    "id": 129,
+    "oldId": 17129,
+    "ccaaCode": 17,
+    "countryCode": 99999,
+    "alias": "castellon _ castello",
+    "name": "Castellón / Castelló",
+    "type": 2
+  },
+  {
+    "id": 39,
+    "oldId": 17039,
+    "ccaaCode": 17,
+    "countryCode": 99999,
+    "alias": "alicante _ alacant",
+    "name": "Alicante / Alacant",
+    "type": 2
+  },
+  {
+    "id": 469,
+    "oldId": 17469,
+    "ccaaCode": 17,
+    "countryCode": 99999,
+    "alias": "valencia _ valencia",
+    "name": "Valencia / València",
+    "type": 2
+  },
+  {
+    "id": 519,
+    "oldId": 18519,
+    "ccaaCode": 18,
+    "countryCode": 99999,
+    "alias": "ceuta",
+    "name": "Ceuta",
+    "type": 2
+  },
+  {
+    "id": 529,
+    "oldId": 19529,
+    "ccaaCode": 19,
+    "countryCode": 99999,
+    "alias": "melilla",
+    "name": "Melilla",
+    "type": 2
+  }
+]
