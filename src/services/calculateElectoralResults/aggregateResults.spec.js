@@ -1,6 +1,6 @@
-import { aggregateResults } from './helpers';
-
 import rawDataLoader from '../rawDataLoader';
+
+import aggregateResults from './aggregateResults';
 
 const results = rawDataLoader.getResultsByType(0);
 

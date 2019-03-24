@@ -2,17 +2,19 @@ import { regionKey } from '../../constants/regions';
 import matchFn from '../../utils/matchFn';
 import updateImmutableArray from '../../utils/updateImmutableArray';
 
-import { aggregateResults, sortBySeatsAndVotes, getParentRegionType } from './helpers';
+import { getParentRegionType } from './helpers';
+import { mapAfterSeatDistribution } from './mappers';
+import get from '../../utils/get';
+import aggregateResults from './aggregateResults';
 
 export default (results, regions) => {
   const parentRegionType = getParentRegionType(results);
   const parentRegions = regions.filter(matchFn(parentRegionType, 'type'));
+  const groupKey = regionKey[parentRegionType];
 
   return results
     .reduce((groups, result) => {
-      const { regionData } = result;
-      const groupKey = regionKey[parentRegionType];
-      const groupValue = regionData[groupKey];
+      const groupValue = get(result, ['regionData', groupKey]);
       const groupIndex = groups.findIndex(matchFn(groupValue, 'id'));
       const groupExists = groupIndex !== -1;
 
@@ -31,8 +33,5 @@ export default (results, regions) => {
 
       return updateImmutableArray(groups, groupIndex, group => aggregateResults(group, result));
     }, [])
-    .map(({ resultsByParty, ...result }) => ({
-      ...result,
-      resultsByParty: resultsByParty.sort(sortBySeatsAndVotes),
-    }));
+    .map(mapAfterSeatDistribution);
 };

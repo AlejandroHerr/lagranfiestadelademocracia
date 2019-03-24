@@ -1,16 +1,18 @@
 import { seatAllocationMethodTypes } from '../../constants/seatAllocation';
 import updateImmutableArray from '../../utils/updateImmutableArray';
 
-import { addPercVotesAndSeats, filterPartiesOverTreshold, addDistortion } from './helpers';
-import seatAllocator from '../seatAllocator';
 import matchFn from '../../utils/matchFn';
+import get from '../../utils/get';
+
+import seatAllocator from '../seatAllocator';
+
+import { filterPartiesUnderThreshold } from './helpers';
 
 export default (
   { resultsByParty, electoralData },
   { allocationMethod = seatAllocationMethodTypes.D_HONDT, minThreshold = 3 } = {},
 ) => {
-  const mappedResults = addPercVotesAndSeats(resultsByParty, electoralData);
-  const filteredParties = filterPartiesOverTreshold(mappedResults, minThreshold);
+  const filteredParties = filterPartiesUnderThreshold(resultsByParty, get(electoralData, 'valids'), minThreshold);
 
   const distribution = seatAllocator(allocationMethod);
 
@@ -19,7 +21,6 @@ export default (
     .reduce(
       (results, partyWithSeats) =>
         updateImmutableArray(results, results.findIndex(matchFn(partyWithSeats.id, 'id')), () => partyWithSeats),
-      mappedResults,
-    )
-    .map(resultForParty => addDistortion(resultForParty, electoralData.seats));
+      resultsByParty,
+    );
 };
