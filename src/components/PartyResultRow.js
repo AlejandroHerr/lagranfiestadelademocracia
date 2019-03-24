@@ -5,6 +5,7 @@ import NormalText from './common/NormalText';
 import ColoredPercentageText from './common/ColoredPercentageText';
 import PercentageText from './common/PercentageText';
 import PartyResultPropTypes from '../propTypes/PartyResultPropTypes';
+import NumberText from './common/NumberText';
 
 const PartyResultRow = ({ partyResult }) => (
   <Flex>
@@ -15,16 +16,19 @@ const PartyResultRow = ({ partyResult }) => (
       <NormalText>{partyResult.name}</NormalText>
     </Box>
     <Box my={1} ml={1} width={1 / 12}>
-      <NormalText textAlign="right">{partyResult.votes}</NormalText>
+      <NumberText textAlign="right">{partyResult.votes}</NumberText>
     </Box>
     <Box my={1} mr={1} width={1 / 12}>
       <PercentageText textAlign="right">{partyResult.percVotes}</PercentageText>
     </Box>
     <Box my={1} ml={1} width={1 / 12}>
-      <NormalText textAlign="right">{partyResult.seats}</NormalText>
+      <NumberText textAlign="right">{partyResult.seats}</NumberText>
     </Box>
     <Box my={1} mr={1} width={1 / 12}>
       <PercentageText textAlign="right">{partyResult.percSeats}</PercentageText>
+    </Box>
+    <Box my={1} mx={1} width={1 / 12}>
+      <NumberText textAlign="right">{partyResult.costPerSeat}</NumberText>
     </Box>
     <Box my={1} mx={1} width={1 / 12}>
       <ColoredPercentageText textAlign="right">{partyResult.distortion}</ColoredPercentageText>

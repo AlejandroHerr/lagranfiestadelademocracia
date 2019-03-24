@@ -9,4 +9,6 @@ export default PropTypes.shape({
   percSeats: PropTypes.number.isRequired,
   distortion: PropTypes.number.isRequired,
   color: PropTypes.string.isRequired,
+  costPerSeat: PropTypes.number.isRequired,
+  position: PropTypes.number.isRequired,
 });
