@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/component/ColoredNumber renders correctly for negative numbers 1`] = `
+<div
+  color="red"
+>
+  -1
+</div>
+`;
+
+exports[`components/component/ColoredNumber renders correctly for positive numbers 1`] = `
+<div
+  color="normal"
+>
+  1
+</div>
+`;

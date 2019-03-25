@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`services/calculateErectoralResults/helpers should match exact snapshot 1`] = `
+Object {
+  "electoralData": Object {
+    "abstentions": 20871910,
+    "census": 69194076,
+    "nulls": 451776,
+    "percAbstention": 0.3016430192665627,
+    "percNull": 0.009349249783215429,
+    "percValid": 0.9906507502167846,
+    "percVotes": 0.6983569807334373,
+    "percWhite": 0.007388783027648223,
+    "prevAbstentions": 22146632,
+    "prevCensus": 73023696,
+    "prevNulls": 454438,
+    "prevVotes": 50877064,
+    "prevWhites": 376264,
+    "seats": 700,
+    "valids": 47870390,
+    "votes": 48322166,
+    "whites": 357042,
+  },
+  "id": 99999,
+  "regionData": Object {
+    "alias": "total estatal",
+    "id": 99999,
+    "name": "Total Estatal",
+    "oldId": 99999,
+    "type": 0,
+  },
+  "regionId": 99999,
+  "resultsByParty": Array [
+    Object {
+      "id": 68,
+      "seats": 2,
+      "votes": 15812370,
+    },
+    Object {
+      "id": 77,
+      "seats": 4,
+      "votes": 10849418,
+    },
+    Object {
+      "id": 59,
+      "seats": 6,
+      "votes": 10099468,
+    },
+    Object {
+      "id": 13,
+      "seats": 8,
+      "votes": 6247538,
+    },
+    Object {
+      "id": 25,
+      "seats": 10,
+      "votes": 1258588,
+    },
+    Object {
+      "id": 10,
+      "seats": 12,
+      "votes": 963678,
+    },
+    Object {
+      "id": 16,
+      "seats": 14,
+      "votes": 572430,
+    },
+    Object {
+      "id": 23,
+      "seats": 16,
+      "votes": 368184,
+    },
+    Object {
+      "id": 7,
+      "seats": 18,
+      "votes": 156160,
+    },
+    Object {
+      "id": 41,
+      "seats": 20,
+      "votes": 569696,
+    },
+    Object {
+      "id": 81,
+      "seats": 22,
+      "votes": 103484,
+    },
+    Object {
+      "id": 93,
+      "seats": 24,
+      "votes": 100564,
+    },
+    Object {
+      "id": 94,
+      "seats": 26,
+      "votes": 93562,
+    },
+    Object {
+      "id": 5,
+      "seats": 28,
+      "votes": 89804,
+    },
+    Object {
+      "id": 49,
+      "seats": 30,
+      "votes": 53106,
+    },
+    Object {
+      "id": 30,
+      "seats": 32,
+      "votes": 28578,
+    },
+    Object {
+      "id": 17,
+      "seats": 34,
+      "votes": 24048,
+    },
+    Object {
+      "id": 28,
+      "seats": 36,
+      "votes": 19724,
+    },
+    Object {
+      "id": 85,
+      "seats": 38,
+      "votes": 14826,
+    },
+    Object {
+      "id": 86,
+      "seats": 40,
+      "votes": 13224,
+    },
+    Object {
+      "id": 8,
+      "seats": 42,
+      "votes": 12528,
+    },
+    Object {
+      "id": 52,
+      "seats": 44,
+      "votes": 6576,
+    },
+    Object {
+      "id": 84,
+      "seats": 46,
+      "votes": 6442,
+    },
+    Object {
+      "id": 53,
+      "seats": 48,
+      "votes": 6206,
+    },
+    Object {
+      "id": 11,
+      "seats": 50,
+      "votes": 5972,
+    },
+    Object {
+      "id": 9,
+      "seats": 52,
+      "votes": 5336,
+    },
+    Object {
+      "id": 91,
+      "seats": 54,
+      "votes": 4614,
+    },
+    Object {
+      "id": 44,
+      "seats": 56,
+      "votes": 3624,
+    },
+    Object {
+      "id": 2,
+      "seats": 58,
+      "votes": 3390,
+    },
+    Object {
+      "id": 36,
+      "seats": 60,
+      "votes": 2368,
+    },
+    Object {
+      "id": 35,
+      "seats": 62,
+      "votes": 1708,
+    },
+    Object {
+      "id": 12,
+      "seats": 64,
+      "votes": 1694,
+    },
+    Object {
+      "id": 51,
+      "seats": 66,
+      "votes": 1676,
+    },
+    Object {
+      "id": 80,
+      "seats": 68,
+      "votes": 1444,
+    },
+    Object {
+      "id": 39,
+      "seats": 70,
+      "votes": 1436,
+    },
+    Object {
+      "id": 88,
+      "seats": 72,
+      "votes": 1368,
+    },
+    Object {
+      "id": 72,
+      "seats": 74,
+      "votes": 1280,
+    },
+    Object {
+      "id": 38,
+      "seats": 76,
+      "votes": 1234,
+    },
+    Object {
+      "id": 83,
+      "seats": 78,
+      "votes": 1138,
+    },
+    Object {
+      "id": 34,
+      "seats": 80,
+      "votes": 1112,
+    },
+    Object {
+      "id": 33,
+      "seats": 82,
+      "votes": 702,
+    },
+    Object {
+      "id": 29,
+      "seats": 84,
+      "votes": 676,
+    },
+    Object {
+      "id": 79,
+      "seats": 86,
+      "votes": 660,
+    },
+    Object {
+      "id": 24,
+      "seats": 88,
+      "votes": 514,
+    },
+    Object {
+      "id": 27,
+      "seats": 90,
+      "votes": 508,
+    },
+    Object {
+      "id": 1,
+      "seats": 92,
+      "votes": 420,
+    },
+    Object {
+      "id": 31,
+      "seats": 94,
+      "votes": 164,
+    },
+    Object {
+      "id": 87,
+      "seats": 96,
+      "votes": 108,
+    },
+  ],
+}
+`;
