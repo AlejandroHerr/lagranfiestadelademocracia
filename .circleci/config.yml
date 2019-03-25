@@ -1,20 +1,56 @@
 version: 2
+defaults:
+  working_directory: ~/lagranfiestadelademocracia
+  docker:
+    - image: circleci/node:lts
 jobs:
-  build:
-    docker:
-      - image: circleci/node:lts
+  checkout:
     working_directory: ~/lagranfiestadelademocracia
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "package.json" }}
-            - v1-dependencies-
-      - run: yarn install
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-      - run: yarn lint
-      - run: yarn test
-      - run: yarn build
+      - attach_workspace:
+          at: ~/lagranfiestadelademocracia
+      - run:
+          name: 'Install Dependencies'
+          command: 'yarn install'
+      - persist_to_workspace:
+          root: .
+          paths: .
+  build:
+    working_directory: ~/lagranfiestadelademocracia
+    steps:
+      - attach_workspace:
+          at: ~/lagranfiestadelademocracia
+      - run:
+          name: build
+          command: 'yarn build'
+  test:
+    working_directory: ~/lagranfiestadelademocracia
+    steps:
+      - attach_workspace:
+          at: ~/lagranfiestadelademocracia
+      - run:
+          name: Test
+          command: 'yarn test'
+  lint:
+    working_directory: ~/lagranfiestadelademocracia
+    steps:
+      - attach_workspace:
+          at: ~/lagranfiestadelademocracia
+      - run:
+          name: Lint
+          command: 'yarn lint'
+workflows:
+  version: 2
+  main_flow:
+    jobs:
+      - checkout
+      - build:
+          requires:
+            - checkout
+      - test:
+          requires:
+            - checkout
+      - lint:
+          requires:
+            - checkout
