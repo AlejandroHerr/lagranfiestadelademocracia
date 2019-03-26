@@ -36,7 +36,7 @@ class Main extends PureComponent {
 
     const { value } = event.target;
 
-    changeElectoralDistrictType(Number(value) || 0);
+    changeElectoralDistrictType(Number(value));
   };
 
   onMinThresholdChange = event => {
@@ -44,7 +44,9 @@ class Main extends PureComponent {
 
     const { value } = event.target;
 
-    changeMinThreshold(Number(value) || 0);
+    const numberValue = Number(value);
+
+    changeMinThreshold((numberValue > 0 && numberValue) || 0);
   };
 
   render() {

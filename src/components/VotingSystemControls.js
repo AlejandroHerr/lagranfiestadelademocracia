@@ -62,17 +62,15 @@ const VotingSystemControls = ({
     <label htmlFor="minThreshold">
       <Flex>
         <NormalText width={1 / 2} textAlign="right">
-          Miínimo de Votos (%)
+          Mínimo de Votos (%)
         </NormalText>
         <Box width={1 / 2}>
           <input
             type="number"
             id="minThreshold"
             name="minThreshold"
-            min="0"
-            max="20"
             step="0.5"
-            value={minThreshold}
+            value={minThreshold.toString()}
             onChange={onMinThresholdChange}
           />
         </Box>
