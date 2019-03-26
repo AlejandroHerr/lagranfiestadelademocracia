@@ -21,7 +21,7 @@ const result = {
   electoralData,
 };
 
-describe('src/services/distributeSeats', () => {
+describe('services/distributeSeats', () => {
   it("should allocate using D'Hondt method", () => {
     const allocatedResult = distributeSeats(result, {
       allocationMethod: seatAllocationMethodTypes.D_HONDT,

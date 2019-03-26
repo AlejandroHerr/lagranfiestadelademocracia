@@ -3,7 +3,7 @@ import rawDataLoader from '../rawDataLoader';
 import calculateElectoralResults from '.';
 import { regionTypes } from '../../constants/regions';
 
-describe('src/services/calculateElectoralResults', () => {
+describe('services/calculateElectoralResults', () => {
   describe('results for CCAA', () => {
     it('should match results for PP', () => {
       const total = calculateElectoralResults(rawDataLoader.getResultsByType(2), rawDataLoader.getRegions());

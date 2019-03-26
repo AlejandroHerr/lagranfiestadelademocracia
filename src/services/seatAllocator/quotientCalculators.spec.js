@@ -4,7 +4,7 @@ import {
   saintLagueModQuotientCalculator,
 } from './quotientCalculators';
 
-describe('services/electoralSystem/allocationMethods/quotientCalculators', () => {
+describe('services/seatAllocator/quotientCalculators', () => {
   describe('dHondtQuotientCalculator', () => {
     it("should calculate the D'Hondt quotient", () => {
       expect(dHondtQuotientCalculator({ seats: 0, votes: 1000 })).toBe(1000);
