@@ -6,6 +6,10 @@ export default quotientCalculator => (results, totalSeats) =>
     const seatCost = distribution.map(quotientCalculator);
     const seatWinner = getIndexOfMax(seatCost);
 
+    if (seatWinner === -1) {
+      return distribution;
+    }
+
     return updateImmutableArray(distribution, seatWinner, party => ({
       ...party,
       seats: party.seats + 1,
