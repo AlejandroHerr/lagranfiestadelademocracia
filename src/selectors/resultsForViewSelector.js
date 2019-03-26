@@ -10,13 +10,15 @@ const resultsForViewSelector = createCachedSelector(
     const selectedResults = results[regionType].find(result => result.regionId === regionId);
     return {
       ...selectedResults,
-      resultsByParty: selectedResults.resultsByParty.map(party => {
-        const partyData = parties.find(({ id }) => id === party.id);
-        return {
-          ...party,
-          ...partyData,
-        };
-      }),
+      resultsByParty: selectedResults.resultsByParty
+        .filter(({ percVotes }) => percVotes >= 0.1 / 100)
+        .map(party => {
+          const partyData = parties.find(({ id }) => id === party.id);
+          return {
+            ...party,
+            ...partyData,
+          };
+        }),
     };
   },
 )(({ electoralSystem, view }) => {
